@@ -1,0 +1,59 @@
+/* #quant {
+    display: flex;
+    margin-top: 13px;
+}
+
+.btn {
+    height: 30px;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+}
+
+.text-success {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    margin-top: 10vh;
+    text-align: center;
+    align-items: center;
+}
+
+.material-icons {
+    display: flex;
+
+} */
+.container{
+    padding: 20px;
+}
+#C1{
+    padding: 50px;
+}
+#C2{
+    padding: 20px;
+}
+#C4{
+    padding: 20px;
+}
+.cardtext{
+    text-align: center;
+    align-items: center;
+}
+.cardtitle{
+    text-align: center;
+}
+.col-md-2{
+    text-align: end;
+}
+.p-3{
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Zeyada&display=swap');
+
+h3{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    /* padding: 10px; */
+    margin-left: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-right: 20px;
+}
+input{
+    margin-left: 20px;
+}
+img{
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.container-fluid{
+    /* background-image: url("../../assets/Images/head.jpg"); */
+    background: #AFDBF5;
+    /* margin: 10px; */
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width:900px) {
+    .container-fluid{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:900px) {
+    .container-fluid{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width:768px) {
+    .container-fluid{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .container-fluid{
+        width: 100%;
+    }
+}
+.nav-item{
+    font-weight: bolder;
+}
+.nav-link{
+    padding: 10px;
+}
+
+
+

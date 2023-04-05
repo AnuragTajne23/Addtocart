@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Roboto&family=Zeyada&display=swap');
+.about{
+    display: flex;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E1EBEE;
+    padding: 50px;
+}
+.ab1{
+    text-align: center;
+}

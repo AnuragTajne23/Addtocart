@@ -1,0 +1,39 @@
+<div class="container">
+  <div>
+    <h1> Welcome to House Of Frames </h1>
+  </div>
+  <br>
+  <br>
+  <div class="info">
+    Glasses, also known as eyeglasses or spectacles, are vision eyewear with lenses (clear or tinted) mounted in a frame
+    that holds them in front of a person's eyes, typically utilizing a bridge over the nose and hinged arms (known as
+    temples or temple pieces) that rest over the ears.
+    Glasses are typically used for vision correction, such as with reading glasses and glasses used for nearsightedness;
+    however, without the specialized lenses, they are sometimes used for cosmetic purposes.
+    Safety glasses provide eye protection against flying debris for construction workers or lab technicians; these
+    glasses may have protection on the sides of the eyes as well as in the lenses. Some types of safety glasses are used
+    to protect against visible and near-visible light or radiation. Glasses are worn for eye protection in some sports,
+    such as squash.
+  </div>
+  <br>
+  <!-- <div *ngFor="let items of products">
+    <img src="{{ items.image }}" alt="" height="300px" width="300px">
+  </div> -->
+  <hr>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let items of products|search:searchString">
+      <div class="card h-100 shadow">
+        <img src="{{ items.image }}" class="card-img-top" alt="..." height="300px">
+        <h5 class="cardtitle">{{ items.title }}</h5>
+        <p class="desc">{{ items.description }}</p>
+        <h5 class="textdanger">{{ items.price | currency:'INR' }}</h5>
+        <div class="cardbody">
+        </div>
+        <div class="card-footer text-center">
+          <button class="btn btn-primary mx-2" (click)="cartdata(items)">Add To Cart</button>
+          <button class="btn btn-danger" (click)="openDialog(items)">View Product</button>
+        </div>
+      </div>
+    </div>
+  </div>

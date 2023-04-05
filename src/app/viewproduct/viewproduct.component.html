@@ -1,0 +1,21 @@
+<div class="view d-flex flex-wrap justify-content-center align-items-center">
+    <div class="card mb-3" style="max-width: 540px; border:none">
+        <div class="row g-0">
+            <div class="image">
+                <img src="{{ data.image }}" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="title">
+                <div class="card-body">
+                    <h3 class="card-title">{{ data.title }}</h3>
+                    <h4 class="card-title">{{ data.price | currency: 'INR' }}</h4>
+                    <p class="desc">{{ data.description }}</p>
+                </div>
+            </div>
+            <hr>
+            <div class="b1 text-center">
+                <button type="button" class="btn btn-primary mx-2" (click)="cartdata(data)">Add To Cart</button>
+                <button type="button" class="btn btn-success" mat-dialog-close>Close</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Zeyada&display=swap');
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#og1{
+    transition: 0.3s ease-in-out;
+}
+#og1:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.2);
+}
+.glass{
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+}
+h4{
+    text-align: center;
+}

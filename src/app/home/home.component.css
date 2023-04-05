@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Roboto&family=Zeyada&display=swap');
+.container{
+    padding: 50px;
+    background-color: #E1EBEE;
+    width: auto;
+}
+div {
+    color: rgb(46, 46, 108);
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.info{
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+img{
+    padding-top: 40px;
+    padding: 20px;
+}
+.desc
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    color:black;
+}
+.cardtitle{
+    text-align: center;
+}
+.textdanger{
+    text-align: center;
+    color:red;
+}
