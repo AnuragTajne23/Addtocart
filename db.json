@@ -97,24 +97,5 @@
       "quantity": "1"
     }
   ],
-  "Cart": [
-    {
-      "id": 1,
-      "title": "CRIBA",
-      "price": 800,
-      "description": "Glasses wearers may use a strap to prevent the glasses from falling off. Wearers of glasses that are used only part of the time may have the glasses attached to a cord that goes around their neck to prevent the loss and breaking of the glasses. The loss of glasses would be detrimental to those working in these conditions.",
-      "image": "assets/Images/3.avif",
-      "quantity": 1,
-      "totalPrice": 800
-    },
-    {
-      "id": 2,
-      "title": "IRUS by IDEE ",
-      "price": 900,
-      "description": "Glasses wearers may use a strap to prevent the glasses from falling off. Wearers of glasses that are used only part of the time may have the glasses attached to a cord that goes around their neck to prevent the loss and breaking of the glasses. The loss of glasses would be detrimental to those working in these conditions.",
-      "image": "assets/Images/10.jpg",
-      "quantity": 1,
-      "totalPrice": 900
-    }
-  ]
+  "Cart": []
 }

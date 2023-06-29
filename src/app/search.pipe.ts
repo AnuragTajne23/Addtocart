@@ -8,9 +8,9 @@ export class SearchPipe implements PipeTransform {
   transform(product:any[], searchString:any): any[] {
     console.log("///",product);
     console.log(searchString);
-    
-    
-   if(!searchString) 
+
+
+   if(!searchString)
    {
     return product;
   }
@@ -24,6 +24,5 @@ export class SearchPipe implements PipeTransform {
     })
     return result
    }
-
   }
 }
